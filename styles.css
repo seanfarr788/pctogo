@@ -1,0 +1,232 @@
+
+
+body {
+    background-color:#e5a519;
+}
+
+.boxes {
+    background-color:white;
+    width:80%;
+    opacity:0;
+    animation: animateBoxes 1s;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+    border:1px solid #888888;
+    position:absolute;
+    left:10%;
+    /*box-shadow: 0 0 10px 20px #FFFFFF;*/
+    box-shadow: 10px 10px 5px #888888;
+}
+
+@-webkit-keyframes animateButtons {
+    0% {
+        width:50px;
+        height:50px;
+    }
+    100% {
+        width:70px;
+        height:70px;
+    }
+}
+
+
+@-webkit-keyframes animateBoxes {
+    from {
+        opacity:0;
+        height: 0;
+        bottom:-30%;
+    }
+
+    to {
+        opacity:1;
+        height: 8%;
+        bottom:94%;
+    }
+}
+
+
+#box1Div {
+    margin-top:-5%;
+    height:9%;
+}
+
+#box2Div {
+    margin-top:-25%;
+    height:10%;
+}
+
+#mainBox {
+    background-color:white;
+    width:101%;
+    height:300%;
+    bottom:0;
+    position:absolute;
+    left:-4px;
+    top:30%;
+    
+}
+
+#logoBox {
+    width:300px;
+    height:108px;
+    margin-left:10%;
+
+}
+
+#logo {
+    top:-20%;
+    width:300px;
+    -webkit-animation: animateLogo 1s;
+}
+
+#buttonsDiv {
+    width:50px;
+    height:250px;
+    position:fixed;
+    margin-left:-7%;
+    
+}
+
+#mainButton {
+    width:50px;
+    height:50px;
+    background-color:#FCC243;
+    border-radius:100%;
+    margin-bottom:30%;
+
+}
+
+.buttons {
+    width:50px;
+    height:50px;
+    background-color:#FCC243;
+    border-radius:100%;
+    margin-bottom:30%;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.3);
+    
+}
+
+.buttons:hover {
+    z-index:99999;
+    -webkit-animation: animateButtons 0.1s 1 alternate ease-out forwards;
+}
+
+.buttonImages {
+    height:30px;
+    margin-top:20%;
+}
+
+#arrowDiv {
+    width:130px;
+    height:130px;
+    background-color:navy;
+    border-radius:100%;
+    position:absolute;
+    margin-top:-5%;
+    margin-left:45.5%;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.3)
+}
+
+
+#aimTitleFont {
+    font-family: 'Open Sans';
+    font-size:30px;
+    animation: textAnimation 3s;
+    animation-delay: 1s;
+}
+
+#aimTextFont {
+    font-family: 'Open Sans';
+    font-size:17px;
+    animation: textAnimation 3s;
+    animation-delay: 1s;
+}
+
+#aimImage {
+    width:120%;
+    margin-left:-15%;
+    animate: animateImages 1s;
+
+
+}
+
+#aboutUsImage {
+    width:120%;
+    margin-left:-15%;
+    margin-top:-1%
+}
+
+#aboutUsTitleFont {
+    font-family: 'Open Sans';
+    font-size:30px;
+}
+
+#aboutUsTextFont {
+    font-family: 'Open Sans';
+    font-size:17px;
+}
+
+#productsPageFont {
+    font-family: 'Open Sans';
+    font-size:20px;
+    color:white;
+    
+}
+
+
+
+@-webkit-keyframes animateImages {
+    from {
+        opacity:0;
+        height: 0;
+        bottom:-30%;
+    }
+
+    to {
+        opacity:1;
+        height: 8%;
+        bottom:94%;
+        
+    }
+}
+
+
+@-webkit-keyframes animateLogo {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@-moz-keyframes animateLogo {
+    from {
+        width:0;
+    }
+
+    to {
+        width:100%;
+    }
+}
+
+@keyframes animateLogo {
+    from {
+        width:0;
+    }
+
+    to {
+        width:100%;
+    }
+}
+
+
+@keyframes textAnimation {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
