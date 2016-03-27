@@ -23,13 +23,13 @@ function scrollBoxes() {
 }
 
 
-function checkVisible( elm, evalType ) {
+function checkVisible( element, evalType ) {
     evalType = evalType || "visible";
 
-    var vpH = $(window).height(), // Viewport Height
-        st = $(window).scrollTop(), // Scroll Top
-        y = $(elm).offset().top,
-        elementHeight = $(elm).height();
+    var vpH = $(window).height(), 
+        st = $(window).scrollTop(), 
+        y = $(element).offset().top,
+        elementHeight = $(element).height();
 
     if (evalType === "visible") return ((y < (vpH + st)) && (y > (st - elementHeight)));
     if (evalType === "above") return ((y < (vpH + st)));
