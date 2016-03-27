@@ -2,12 +2,14 @@
 
 body {
     background-color:#e5a519;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .boxes {
     background-color:white;
     width:80%;
-    animation: animateBoxes 1s;
+    visibility:hidden;
     border:1px solid #888888;
     position:absolute;
     left:10%;
@@ -18,17 +20,51 @@ body {
 #box1Div {
     margin-top:-5%;
     height:9%;
+    animation: animateBox1 1s forwards;
+    animation-delay: 0.5s;
 }
+
+@-webkit-keyframes animateBox1 {
+    from {
+        height: 0;
+        margin-top: 300%;
+        visibility:hidden;
+    }
+
+    to {
+        height: 9%;
+        margin-top: -5%;
+        visibility:visible;
+    }
+}
+
 
 #box2Div {
     margin-top:-5%;
     height:10%;
+    animation: animateBox1 1s forwards;
+    animation-delay: 0.5s;
+}
+
+
+@-webkit-keyframes animateBox2 {
+    from {
+        height: 0;
+        margin-top: 300%;
+        visibility:hidden;
+    }
+
+    to {
+        height: 10%;
+        margin-top: -25%;
+        visibility:visible;
+    }
 }
 
 #mainBox {
     background-color:white;
     width:101%;
-    height:300%;
+    height:250%;
     bottom:0;
     position:absolute;
     left:-4px;
@@ -46,7 +82,7 @@ body {
 #logo {
     top:-20%;
     width:300px;
-    -webkit-animation: animateLogo 1s;
+    -webkit-animation: animateLogo 0.5s;
 }
 
 #buttonsDiv {
@@ -78,7 +114,7 @@ body {
 
 .buttons:hover {
     z-index:99999;
-    -webkit-animation: animateButtons 0.1s 1 alternate ease-out forwards;
+    -webkit-animation: animateButtons 0.1s 1  forwards;
 }
 
 .buttonImages {
@@ -151,15 +187,7 @@ body {
 }
 
 
-@-webkit-keyframes animateBoxes {
-    from {
-        width: 0;
-    }
 
-    to {
-        width: 80%;
-    }
-}
 
 
 @-webkit-keyframes animateLogo {
