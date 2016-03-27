@@ -27,11 +27,7 @@ function checkVisible( element, evalType ) {
     evalType = evalType || "visible";
 
     var vpH = $(window).height(), 
-<<<<<<< HEAD
         st = $(window).scrollTop(), 
-=======
-        st = $(window).scrollTop(),
->>>>>>> 03d69c5a5a739c19e7944665d12ef293903bef54
         y = $(element).offset().top,
         elementHeight = $(element).height();
 
