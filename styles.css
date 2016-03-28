@@ -19,10 +19,12 @@ body {
 
 #box1Div {
     margin-top:-5%;
-    height:9%;
+    /*height:9%;*/
+
     animation: animateBox1 1s forwards;
     animation-delay: 0.5s;
 }
+
 
 @-webkit-keyframes animateBox1 {
     from {
@@ -32,7 +34,7 @@ body {
     }
 
     to {
-        height: 9%;
+        height: 10%;
         margin-top: -5%;
         visibility:visible;
     }
@@ -135,18 +137,23 @@ body {
 
 #aimTitleFont {
     font-family: 'Open Sans';
-    font-size:30px;
+    font-size:3vh;
     animation: textAnimation 3s forwards;
     opacity:0;
     animation-delay:1s;
+
 }
 
 #aimTextFont {
     font-family: 'Open Sans';
-    font-size:17px;
+
     animation: textAnimation 3s forwards;
     animation-delay:1s;
     opacity:0;
+}
+
+@media (max-width: 3px) {
+    #aimTextFont {font-size:200px;}
 }
 
 #aimImage {
@@ -181,7 +188,6 @@ body {
     font-family: 'Open Sans';
     font-size:20px;
     color:white;
-    
 }
 
 @-webkit-keyframes animateButtons {
@@ -194,10 +200,6 @@ body {
         height:70px;
     }
 }
-
-
-
-
 
 @-webkit-keyframes animateLogo {
     from {
