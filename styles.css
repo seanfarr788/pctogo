@@ -44,6 +44,7 @@ body {
 #box2Div {
     margin-top:-5%;
     height:10%;
+    animation: animateBox2 1s forwards;
     animation-delay: 0.5s;
 }
 
@@ -56,11 +57,34 @@ body {
     }
 
     to {
-        height: 10%;
+        height: 11%;
         margin-top: -8%;
         visibility:visible;
     }
 }
+
+#box3Div {
+    margin-top:-5%;
+    height:10%;
+    animation: animateBox3 1s forwards;
+    animation-delay: 0.5s;
+}
+
+
+@-webkit-keyframes animateBox3 {
+    from {
+        height: 0;
+        margin-top: 300%;
+        visibility:hidden;
+    }
+
+    to {
+        height: 12%;
+        margin-top: 70%;
+        visibility:visible;
+    }
+}
+
 
 #mainBox {
     background-color:white;
@@ -91,6 +115,7 @@ body {
     height:250px;
     position:fixed;
     margin-left:-7%;
+
     
 }
 
@@ -129,23 +154,29 @@ body {
     background-color:navy;
     border-radius:100%;
     position:absolute;
-    margin-top:-5%;
-    margin-left:45.5%;
+    margin-top:75%;
+    margin-left:47%;
     box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.3)
 }
 
 
 #aimTitleFont {
     font-family: 'Open Sans';
+<<<<<<< HEAD
     font-size:3vh;
     animation: textAnimation 3s forwards;
     opacity:0;
     animation-delay:1s;
 
+=======
+    font-size:30px;
+    animation: textAnimation 3s;
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
 }
 
 #aimTextFont {
     font-family: 'Open Sans';
+<<<<<<< HEAD
 
     animation: textAnimation 3s forwards;
     animation-delay:1s;
@@ -156,9 +187,36 @@ body {
     #aimTextFont {font-size:200px;}
 }
 
+=======
+    font-size:17px;
+    animation: textAnimation 3s;
+}
+
+
+#contactTitleFont {
+    font-family: 'Open Sans';
+    font-size:30px;
+    animation: textAnimation 3s;
+}
+
+#contactTextFont {
+    font-family: 'Open Sans';
+    font-size:17px;
+    animation: textAnimation 3s;
+}
+
+
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
 #aimImage {
     width:120%;
     margin-left:-15%;
+
+}
+
+#contactimage { 
+     width:120%;
+     margin-left:-15%;
+     margin-top:-5%
 
 }
 
@@ -171,23 +229,28 @@ body {
 #aboutUsTitleFont {
     font-family: 'Open Sans';
     font-size:30px;
-    animation: textAnimation 3s forwards;
-    animation-delay:1s;
-    opacity:0;
 }
 
 #aboutUsTextFont {
     font-family: 'Open Sans';
     font-size:17px;
-    animation: textAnimation 3s forwards;
-    animation-delay:1s;
-    opacity:0;
 }
 
 #productsPageFont {
     font-family: 'Open Sans';
     font-size:20px;
     color:white;
+<<<<<<< HEAD
+=======
+    margin-top: 50%;
+    
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
+}
+
+#productPageFontDiv{
+    margin-top: 5%;
+
+
 }
 
 @-webkit-keyframes animateButtons {

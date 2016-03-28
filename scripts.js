@@ -1,18 +1,12 @@
 
 function init() {
-	box = document.getElementById("box2Div");
 
-	box.style.animation = "	";
 }
 
-$(window).scroll(function() {
-    if (checkVisible($('#box2Div'))) {
-        scrollBoxes();
-    }
-});
 
 function autoScroll(amount) {
 	$('body,html').animate({ scrollTop: amount }, 800);
+<<<<<<< HEAD
 }
 
 function scrollBoxes() {
@@ -33,4 +27,6 @@ function checkVisible( element, evalType ) {
 
     if (evalType === "visible") return ((y < (vpH + st)) && (y > (st - elementHeight)));
     if (evalType === "above") return ((y < (vpH + st)));
+=======
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
 }
