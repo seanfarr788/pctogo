@@ -1,0 +1,46 @@
+/* save this as productstyles.css */
+
+#productBox1 {
+    animation: productsAnimateBox1 1s forwards;
+} 
+
+@keyframes productsAnimateBox1 {
+    0% {
+    	
+        margin-top: 200%;
+    }
+    100% {
+    	
+        margin-top:-5%;
+    }
+}
+
+#productBox2 {
+	animation: productsAnimateBox2 1s forwards;
+}
+
+@keyframes productsAnimateBox2 {
+    0% {
+    	
+        margin-top: 200%;
+    }
+    100% {
+    	
+        margin-top:10%;
+    }
+}
+
+#productBox3 {
+	animation: productsAnimateBox3 1s forwards;
+}
+
+@keyframes productsAnimateBox3 {
+    0% {
+    	
+        margin-top: 200%;
+    }
+    100% {
+    	
+        margin-top:25%;
+    }
+}
