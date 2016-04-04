@@ -19,10 +19,12 @@ body {
 
 #box1Div {
     margin-top:-5%;
-    height:9%;
+    /*height:9%;*/
+
     animation: animateBox1 1s forwards;
     animation-delay: 0.5s;
 }
+
 
 @-webkit-keyframes animateBox1 {
     from {
@@ -160,12 +162,32 @@ body {
 
 #aimTitleFont {
     font-family: 'Open Sans';
+<<<<<<< HEAD
+    font-size:3vh;
+    animation: textAnimation 3s forwards;
+    opacity:0;
+    animation-delay:1s;
+
+=======
     font-size:30px;
     animation: textAnimation 3s;
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
 }
 
 #aimTextFont {
     font-family: 'Open Sans';
+<<<<<<< HEAD
+
+    animation: textAnimation 3s forwards;
+    animation-delay:1s;
+    opacity:0;
+}
+
+@media (max-width: 3px) {
+    #aimTextFont {font-size:200px;}
+}
+
+=======
     font-size:17px;
     animation: textAnimation 3s;
 }
@@ -184,6 +206,7 @@ body {
 }
 
 
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
 #aimImage {
     width:120%;
     margin-left:-15%;
@@ -217,8 +240,11 @@ body {
     font-family: 'Open Sans';
     font-size:20px;
     color:white;
+<<<<<<< HEAD
+=======
     margin-top: 50%;
     
+>>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
 }
 
 #productPageFontDiv{
@@ -237,10 +263,6 @@ body {
         height:70px;
     }
 }
-
-
-
-
 
 @-webkit-keyframes animateLogo {
     from {
