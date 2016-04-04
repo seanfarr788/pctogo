@@ -7,6 +7,7 @@ function init() {
 function autoScroll(amount) {
 	$('body,html').animate({ scrollTop: amount }, 800);
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 function scrollBoxes() {
@@ -29,4 +30,6 @@ function checkVisible( element, evalType ) {
     if (evalType === "above") return ((y < (vpH + st)));
 =======
 >>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
+=======
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 }

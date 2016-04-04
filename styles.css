@@ -19,13 +19,20 @@ body {
 
 #box1Div {
     margin-top:-5%;
+<<<<<<< HEAD
     /*height:9%;*/
 
+=======
+    height:9%;
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
     animation: animateBox1 1s forwards;
     animation-delay: 0.5s;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 @-webkit-keyframes animateBox1 {
     from {
         height: 0;
@@ -163,6 +170,7 @@ body {
 #aimTitleFont {
     font-family: 'Open Sans';
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-size:3vh;
     animation: textAnimation 3s forwards;
     opacity:0;
@@ -172,10 +180,15 @@ body {
     font-size:30px;
     animation: textAnimation 3s;
 >>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
+=======
+    font-size:30px;
+    animation: textAnimation 3s;
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 }
 
 #aimTextFont {
     font-family: 'Open Sans';
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     animation: textAnimation 3s forwards;
@@ -188,6 +201,8 @@ body {
 }
 
 =======
+=======
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
     font-size:17px;
     animation: textAnimation 3s;
 }
@@ -206,7 +221,10 @@ body {
 }
 
 
+<<<<<<< HEAD
 >>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
+=======
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 #aimImage {
     width:120%;
     margin-left:-15%;
@@ -241,10 +259,15 @@ body {
     font-size:20px;
     color:white;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin-top: 50%;
     
 >>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
+=======
+    margin-top: 50%;
+    
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 }
 
 #productPageFontDiv{
@@ -264,6 +287,13 @@ body {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 @-webkit-keyframes animateLogo {
     from {
         width: 0;
