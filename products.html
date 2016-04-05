@@ -1,106 +1,107 @@
-<html>
-<head>
-    <title> Product page </title>
-    <link rel="icon" href="favicon.png">
-    <meta charset="utf-8" />
-    <title>PC TO GO</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+﻿html>
+<head >
+<title> Product page </title>
+    <!DOCTYPE html>
+    <html ng-app="websites">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title ng-bind="strHTMLTitle + 'PC TO GO' "></title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="dist/assets/css/vendor-49fd9f2a.css" />
+        <link rel="stylesheet" href="dist/assets/css/main-b6273029.css" />
+    </head>
+    <body class="l-offset-nav">
+        <div data-ng-include="'views/navbar.html'"></div><section data-ui-view></section>
+        <script src="dist/assets/js/vendor-fa8f78d7.js"></script>
+        <script src="dist/assets/js/main-f2ae2bba.js"></script><!-- inject:js -->
+        <script src="dist/templatecache/templates-0249e8da.js"></script><!-- endinject -->
+        <img 
+    </body>
+</html>
 </head>
-<body>
-    <center>
-        <div style="height:30%;
-                width:100%;
-                background-color:#e7a200;">
-            <font style="color: white;
-               font-size:10%">Products Page</font>
-            <img style="height:70%;
-                float:left;"
-                 src="logo.png" />
-        </div>
+<body><center>	
 
-        <div style="background-color:white">
-            <form>
-                <p>
-                    <a href="index.html">
-                        <center>
-                            <img src="backpage.png"
-                                 style="height: 10%;
+          div style="background-color:white">
+          <form>
+              <p>
+                  <a href="index.html">
+                      <center>
+                          <img src="backpage.png"
+                               style="height: 10%;
                             float:left;
-                            margin-top:-2%;
+                            margin-top:-10%;
                             shadow: 10px 10px 5px #888888;"
-                        </center>
-                        </img>
-                    </a>
-                </p>
-            </form>
-        </div>
-
-        <div id="productBox1" style="height:25%;
-                width:80%;
-                background-color:white;
-                box-shadow: 10px 10px 5px #888888;
-               border: 1px black;
-               box-sizing: border-box;
-                margin-top:-5%;
-                margin-left:10%;
-                overflow:hidden;
-                position:absolute; ">
-
-            <img style="height:100%;
-                float:left;"
-                 src="canon.jpg" />
-            <font style="color:black;
-                font-size:200%;
-                position:static;">
-                Acer Veriton: <br />
-                Intel Core I5 4390 <br />
-                8GB DDR3 RAM
-            </font>
-        </div>
-
-        <div id="productBox2" style="height:25%;
-                width:80%;
-                background-color:white;
-                box-shadow: 10px 10px 5px #888888;
-               border: 1px black;
-                margin-left:10%;
-                overflow:hidden;
-                position:absolute;  ">
-            <img style="height:100%;
-                    float:left;"
-                 src="dell.jpg" />
-            <font style="color:black;
-                    font-size:200%;">
-                Dell Optiplex 160: <br />
-                Intel Core Atom <br />
-                2GB DDR3 RAM
-            </font>
-        </div>
-
-        <div id="productBox3" style="height:25%;
-                width:80%;
-                background-color:white;
-                box-shadow: 10px 10px 5px #888888;
-               border: 1px black;
-               margin-left:10%;
-                overflow:hidden;
-                position:absolute;">
-
-            <img style="height:100%;
-                    float:left;
-                    margin-top:0%;"
-                 src="third.jpg" />
-            <font style="color:black;
-         font-size:200%;">
-                RM Education: <br />
-                Intel Core Celeron  <br />
-                3GB DDR3 RAM
-            </font>
-        </div>
+                      </center>
+                      </img>
+                  </a>
+              </p>
+          </form>
+          </div>
 
 
-    </center>
-    <link rel="stylesheet" type="text/css" href="productstyles.css">
+	<div style="height:30%;
+				width:100%;
+				background-color:#e7a200;">
+	<font style="color: white; font-size:10%"> Products Page </font>
+	<img style="height:70%;
+				float:left;"
+				src="logo.png"/>
+	</div>
+	<div style= "background-color:white">
+{		
+	</div>
+	<div style="height:25%;
+				width:80%;
+				background-color:white;
+				box-shadow: 10px 10px 5px #888888;
+				margin-top:-5%  ">
+	<img style="height:100%;
+				float:left;"
+				src="canon.jpg"/>
+	<font style="color:black;
+	 font-size:700%;
+	 float:center;
+	 "> Acer Veriton: <br/>
+	 	Intel Core I5 4390 <br/>
+	 	8GB DDR3 RAM </font>
+	</div>
+
+	<div style="height:25%;
+				width:80%;
+				background-color:white;
+				box-shadow: 10px 10px 5px #888888;
+				margin-top: 5%  ">
+	<img style="height:100%;
+				float:left;"
+				src="dell.jpg"/>
+	<font style="color:black;
+	 font-size:700%;
+	 float:center;
+	 "> Dell Optiplex 160: <br/>
+	 	Intel Core Atom <br/>
+	 	2GB DDR3 RAM
+	 	</font>
+	</div>
+}	
+{<div style="height:25%;
+				width:80%;
+				background-color:white;
+				box-shadow: 10px 10px 5px #888888;
+				margin-top: 5%  ">
+	<img style="height:100%;
+				float:left;"
+				src="third.jpg"/>
+	<font style="color:black;
+	 font-size:700%;
+	 float: center;">
+        RM Education: <br/>
+	 	Intel Core Celeron  <br/>
+	 	3GB DDR3 RAM
+	 	</font>
+	</div>
+}
+</center>
 </body>
 </html>

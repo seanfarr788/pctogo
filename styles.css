@@ -4,6 +4,7 @@ body {
     background-color:#e5a519;
     max-width: 100%;
     overflow-x: hidden;
+    
 }
 
 .boxes {
@@ -13,26 +14,19 @@ body {
     border:1px solid #888888;
     position:absolute;
     left:10%;
-    /*box-shadow: 0 0 10px 20px #FFFFFF;*/
+    box-shadow: 0 0 10px 20px #FFFFFF;
     box-shadow: 10px 10px 5px #888888;
 }
 
 #box1Div {
     margin-top:-5%;
-<<<<<<< HEAD
-    /*height:9%;*/
-
-=======
     height:9%;
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
+    height:9%;
     animation: animateBox1 1s forwards;
     animation-delay: 0.5s;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 @-webkit-keyframes animateBox1 {
     from {
         height: 0;
@@ -48,10 +42,12 @@ body {
 }
 
 
-#box2Div {
-    margin-top:-5%;
+#box3Div {
+    margin-top:-15%;
     height:10%;
     animation: animateBox2 1s forwards;
+    animation: animateBox2 1s forwards;
+
     animation-delay: 0.5s;
 }
 
@@ -64,13 +60,18 @@ body {
     }
 
     to {
+
+        height: 35%;
+        margin-top: -15%;
+        height: 11%;
+        margin-top: -300%;
         height: 11%;
         margin-top: -300%;
         visibility:visible;
     }
 }
 
-#box3Div {
+#box2Div {
     margin-top:-5%;
     height:10%;
     animation: animateBox3 1s forwards;
@@ -86,8 +87,52 @@ body {
     }
 
     to {
-        height: 12%;
-        margin-top: 70%;
+        height: 15%;
+        margin-top: -5%;
+        visibility:visible;
+    }
+}
+
+#box4Div {
+    margin-top:-15%;
+    height:10%;
+    animation: animateBox4 1s forwards;
+    animation-delay: 0.5s;
+}
+
+
+@-webkit-keyframes animateBox4 {
+    from {
+        height: 0;
+        margin-top: 300%;
+        visibility:hidden;
+    }
+
+    to {
+        height: 15%;
+        margin-top: 90%;
+        visibility:visible;
+    }
+}
+
+#box5Div {
+    margin-top:-15%;
+    height:10%;
+    animation: animateBox5 1s forwards;
+    animation-delay: 0.5s;
+}
+
+
+@-webkit-keyframes animateBox5 {
+    from {
+        height: 0;
+        margin-top: 300%;
+        visibility:hidden;
+    }
+
+    to {
+        height: 15%;
+        margin-top: 0%;
         visibility:visible;
     }
 }
@@ -112,7 +157,7 @@ body {
 }
 
 #logo {
-    top:-20%;
+    top:-0%;
     width:300px;
     -webkit-animation: animateLogo 0.5s;
 }
@@ -155,41 +200,28 @@ body {
     margin-top:20%;
 }
 
-#arrowDiv {
-    width:130px;
-    height:130px;
-    background-color:navy;
-    border-radius:100%;
-    position:absolute;
-    margin-top:75%;
-    margin-left:47%;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.3)
-}
-
-
 #aimTitleFont {
     font-family: 'Open Sans';
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     font-size:3vh;
     animation: textAnimation 3s forwards;
     opacity:0;
     animation-delay:1s;
 
-=======
     font-size:30px;
     animation: textAnimation 3s;
->>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
-=======
     font-size:30px;
+
+    animation: textAnimation 3s forwards;
+    opacity:0;
+    animation-delay:1s;
+
     animation: textAnimation 3s;
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
+
 }
 
 #aimTextFont {
     font-family: 'Open Sans';
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     animation: textAnimation 3s forwards;
     animation-delay:1s;
@@ -200,9 +232,6 @@ body {
     #aimTextFont {font-size:200px;}
 }
 
-=======
-=======
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
     font-size:17px;
     animation: textAnimation 3s;
 }
@@ -220,11 +249,20 @@ body {
     animation: textAnimation 3s;
 }
 
+#contactTitleFont {
+    font-family: 'Open Sans';
+    font-size:30px;
+    animation: textAnimation 3s;
+}
 
-<<<<<<< HEAD
->>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
-=======
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
+#contactTextFont {
+    font-family: 'Open Sans';
+    font-size:17px;
+    animation: textAnimation 3s forwards;
+    animation-delay:1s;
+    opacity:0;
+}
+
 #aimImage {
     width:120%;
     margin-left:-15%;
@@ -247,33 +285,29 @@ body {
 #aboutUsTitleFont {
     font-family: 'Open Sans';
     font-size:30px;
+    animation: textAnimation 3s forwards;
+    animation-delay:1s;
+    opacity:0;
 }
 
 #aboutUsTextFont {
     font-family: 'Open Sans';
     font-size:17px;
+    animation: textAnimation 3s forwards;
+    animation-delay:1s;
+    opacity:0;
 }
 
 #productsPageFont {
     font-family: 'Open Sans';
     font-size:20px;
     color:white;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    margin-top: 50%;
-    
->>>>>>> ce83edb4e184bf76e95b09399f4217cf13895815
-=======
-    margin-top: 50%;
-    
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
+    margin-top: 50%;   
+    margin-top: 50%;    
 }
 
 #productPageFontDiv{
     margin-top: 5%;
-
-
 }
 
 @-webkit-keyframes animateButtons {
@@ -286,14 +320,6 @@ body {
         height:70px;
     }
 }
-
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> b348550a71e111e3761daeddf4b3cc5bf93bad25
 @-webkit-keyframes animateLogo {
     from {
         width: 0;
